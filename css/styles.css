@@ -1,0 +1,42 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  width: 100vw;
+  height: 100vh;
+}
+
+div {
+  width: 100vmin;
+  height: 100vmin;
+  border-radius: 100vmax;
+  background: conic-gradient(
+                hsla(  0, 100%, 50%, 1), 
+                hsla( 60, 100%, 50%, 1), 
+                hsla(120, 100%, 50%, 1),
+                hsla(180, 100%, 50%, 1), 
+                hsla(240, 100%, 50%, 1),
+                hsla(300, 100%, 50%, 1), 
+                hsla(360, 100%, 50%, 1)
+              );
+  clip-path: circle(50vmin at center);
+  overflow: hidden;
+  position: relative;
+}
+
+div > div {
+  position: absolute;
+  width: 5vmin;
+  height: 5vmin;
+  background: #ff8800;
+  transform-origin: 50vmin 50vmin;
+  /*transform: rotate(360deg) translate(47.5vmin);*/
+}
