@@ -2,8 +2,10 @@
     ColorWheel
 </h1>
 
-<a href=https://ShivaShirsath.github.io/ColorWheel>
-  <h1 align=center>
+<h1 align=center>
+    <a href=https://ShivaShirsath.github.io/ColorWheel>
+  
     ►
-  </h1>
-</a>
+  </a>
+</h1>
+
